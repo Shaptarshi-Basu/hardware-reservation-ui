@@ -1,0 +1,38 @@
+.table {
+  width: 100%;
+}
+
+
+.table-row {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.table-cell {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.table-cell.name {
+  width: 100%;
+  background-color: silver;
+}
+
+.table-cell.status {
+  width: 100%;
+  background-color: beige;
+  padding-bottom: 10px;
+}
+
+.table-cell.button {
+  width: 25%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.table-cell.button.box {
+  display: inline-block;
+  width: 100px;
+  width: 100px;
+  margin-right: 10px; /* add margin to create space between divs */
+}
